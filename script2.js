@@ -149,7 +149,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         marker.closePopup();
                     }
                 });
-
                 marker.bindPopup(feature.properties.name);
                 return marker;
             }

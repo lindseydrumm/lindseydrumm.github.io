@@ -1,0 +1,101 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+}
+
+#map {
+    flex: 2;
+    height: 400px;
+}
+
+.custom-popup {
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #92bfe0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#info {
+    flex: 1;
+    padding: 1em;
+}
+
+h2 {
+    color: #333;
+}
+
+#location-info {
+    color: #20cc2b;
+}
+
+/* Sidebar container */
+#sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -300px; /* Initially hide the sidebar off-screen */
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+}
+
+/* Sidebar header */
+#sidebar header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Sidebar content */
+#sidebar .content {
+    padding: 15px;
+}
+
+/* Close button */
+#sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Show sidebar animation */
+#sidebar.show {
+    right: 0;
+}
+
+/* Add this to your existing CSS or in a <style> tag */
+.message {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message:hover {
+    background-color: #f9f9f9;
+}

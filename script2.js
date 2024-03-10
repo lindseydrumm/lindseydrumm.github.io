@@ -19,11 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var studentLifeLayer = L.layerGroup().addTo(map);
     var allLayers = L.layerGroup([diningBuildingsLayer, residentialBuildingsLayer, librariesLayer, classroomsLayer, studentLifeLayer]).addTo(map);
 
-    var sidebar = L.control.sidebar({
-      container: 'sidebar', 
-      position: 'right'
-    }).addTo(map);
-
     var colors = {
         'dining': '#6A8AEE',
         'residential': '#FFAC7B',
@@ -80,11 +75,6 @@ document.addEventListener('DOMContentLoaded', function () {
           onEachFeature: function (feature, layer) {
             // Highlight feature on mouseover
             layer.on({
-              click: function (e) {
-                // Show sidebar on feature click
-                sidebar.addPanel(panelContent);
-                sidebar.open(feature.properties.name);
-              },
               mouseover: function (e) {
                 var layer = e.target;
                 layer.setStyle({

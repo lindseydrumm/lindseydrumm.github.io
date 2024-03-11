@@ -38,12 +38,18 @@ document.addEventListener('DOMContentLoaded', function () {
     var category = feature.properties.category;
     var type = feature.geometry.type;
 
-    var panelContent = {
-      id: feature.properties.name,                     
-      tab:'Info',  
-      title: feature.properties.name,              
-      position: 'bottom'                 
-    };
+    // Customize popup content
+    var popupContent = '<h3>' + feature.properties.name + '</h3>' +
+    '<p style="text-align: center;">' + feature.properties.description + '</p>';
+    if (feature.properties.image) {
+      popupContent += '<img src="' + feature.properties.image + '" alt="Image" style="width: 300%">'
+    }
+
+    var expandedPopupContent = '<h3>' + feature.properties.name + '</h3>' +
+    '<p>' + feature.properties.description + '</p>';
+    if (feature.properties.link) {
+      expandedPopupContent += '<p>For more information: ' + feature.properties.link + '</p>';
+    }
 
     if (category === 'dining') {
       layer = diningBuildingsLayer;
@@ -62,9 +68,9 @@ document.addEventListener('DOMContentLoaded', function () {
       var defaultStyle = {
           fillColor: colors[category],
           color: colors[category], // Border color
-          weight: 1,
-          opacity: 0.2,
-          fillOpacity: 0.9
+          weight: 2,
+          opacity: 0.9,
+          fillOpacity: 0.7
         };
 
       // Add the GeoJSON feature to the respective layer
@@ -73,28 +79,40 @@ document.addEventListener('DOMContentLoaded', function () {
               return defaultStyle;
             },
         onEachFeature: function (feature, layer) {
+          var clicked = false;
           // Highlight feature on mouseover
           layer.on({
+            click: function (e) {
+              // Expand the popup on click
+              // var layer = e.target;
+              var popup = layer.getPopup();
+              if (popup) {
+                  layer.bindPopup(expandedPopupContent, { autoClose: false }, { closeOnClick: false }).openPopup();
+              }
+              clicked = true;
+            },
             mouseover: function (e) {
               var layer = e.target;
               layer.setStyle({
                 weight: 5,
-                color: '#666',
+                color: colors[category],
                 dashArray: '',
-                fillOpacity: 0.85
+                fillOpacity: 0.9
               });
-              layer.openPopup();
+              layer.bindPopup(popupContent, { autoClose: false }).openPopup();
             },
             mouseout: function (e) {
               // Restore the initial style on mouseout
-              var layer = e.target;
-              layer.setStyle(defaultStyle);
-              layer.closePopup();
+              if (!clicked) {
+                var layer = e.target;
+                layer.setStyle(defaultStyle);
+                layer.closePopup();
               }
+              clicked = false;
+            }
           });
 
-          // Bind popup with the name property
-          layer.bindPopup(feature.properties.name); // Customize the popup content if needed
+          
         }
       }).addTo(layer);
     } else if (type === 'Point') {
@@ -122,15 +140,20 @@ document.addEventListener('DOMContentLoaded', function () {
                   opacity: 0.9,
                   fillOpacity: 0.8
               });
-
-              // Add click event to show sidebar
-              marker.on('click', function () {
-                sidebar.addPanel(panelContent);
-                sidebar.open();
-              });
+              
+              var clicked = false;
 
               // Add mouseover event
               marker.on({
+                  click: function (e) {
+                    // Expand the popup on click
+                    // var layer = e.target;
+                    var popup = layer.getPopup();
+                    if (popup) {
+                      layer.bindPopup(expandedPopupContent, { autoClose: false }, { closeOnClick: false }).openPopup();
+                    }
+                    clicked = true;
+                  },
                   mouseover: function (e) {
                       var marker = e.target;
                       marker.setStyle({
@@ -144,12 +167,16 @@ document.addEventListener('DOMContentLoaded', function () {
                         }
                   },
                   mouseout: function (e) {
+                    if (!clicked) {  
                       var layer = e.target;
                       layer.setStyle(defaultStyle);
                       marker.closePopup();
+                    }
+                    clicked = true;
                   }
               });
-              marker.bindPopup(feature.properties.name);
+
+              marker.bindPopup(popupContent);
               return marker;
           }
       }).addTo(layer).bringToFront();
@@ -160,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Add the GeoJSON layer to the map
   var overlayMaps = {
       "Dining Buildings": diningBuildingsLayer,
-      "Residential Buildings": residentialBuildingsLayer,
+      "Dormitories": residentialBuildingsLayer,
       "Libraries": librariesLayer,
       "Classrooms": classroomsLayer,
       "Student Life": studentLifeLayer
@@ -171,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   message.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML = '<h>Select a Layer:</h>';
+    div.innerHTML = '<h3>Select a Layer:</h3>';
     return div;
   };
 
@@ -205,20 +232,20 @@ document.addEventListener('DOMContentLoaded', function () {
         // Set the map view when a result is selected
         map.setView(latlng, 18);
 
-        // Find the clicked feature based on the title
-        var clickedFeature = allLayers.getLayers().find(function (layer) {
-          return layer.feature.properties.name === title;
-        });
+        // Iterate through layers in the Layer Group
+        allLayers.eachLayer(function (layer) {
+          // Check if the layer is a GeoJSON layer and has a feature property
+          console.log(layer);
+          if (layer instanceof L.GeoJSON && layer.feature && layer.feature.properties.name === title) {
+              layer.setStyle({
+                  color: 'red',  // Highlighted color
+                  weight: 4       // Highlighted weight
+              });
 
-        if (clickedFeature) {
-          clickedFeature.setStyle({
-              color: 'red',  // Highlighted color
-              weight: 4       // Highlighted weight
-          });
-
-          // Open a popup for the clicked feature
-          clickedFeature.openPopup();
-        }
+              // Open a popup for the clicked feature
+              layer.openPopup();
+          }
+      });
     }
   });
 

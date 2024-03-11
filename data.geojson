@@ -6,7 +6,7 @@
             "properties": {
                 "name": "Collis Cafe",
                 "category": "dining",
-                "description": ""
+                "description": "DBA and swipe accessible"
             },
             "geometry": {
               "coordinates": [
@@ -69,7 +69,7 @@
                 "properties": {
                     "name": "Lord Hall",
                     "category": "residential",
-                    "description": ""
+                    "description": "Allen house"
                 },
                 "geometry": {
                   "coordinates": [[[-72.29215269937772,43.70478790097985],[-72.29213188541155,43.704517061346934],[-72.29195843569045,43.70452333079683],[-72.29197231166808,43.70479291651688],[-72.29215269937772,43.70478790097985]]],
@@ -83,7 +83,7 @@
                 "properties": {
                   "name": "Streeter Hall",
                   "category": "residential",
-                  "description": ""
+                  "description": "Allen house"
                 },
                 "geometry": {
                   "coordinates": [
@@ -114,48 +114,12 @@
                 },
                 "id": 2
               },
-                {
-                      "type": "Feature",
-                      "properties": {
-                        "name": "Streeter Hall",
-                        "category": "residential",
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          [
-                            [
-                              -72.29185663193348,
-                              43.70471199372753
-                            ],
-                            [
-                              -72.29185352617785,
-                              43.70460310227355
-                            ],
-                            [
-                              -72.291435802091,
-                              43.704615450799395
-                            ],
-                            [
-                              -72.2914342492134,
-                              43.70471872927459
-                            ],
-                            [
-                              -72.29185663193348,
-                              43.70471199372753
-                            ]
-                          ]
-                        ],
-                        "type": "Polygon"
-                      },
-                      "id": 0
-                    },
                     {
                       "type": "Feature",
                       "properties": {
                         "name": "Gile Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "Allen house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -199,7 +163,7 @@
                       "properties": {
                         "name": "Hitchcock Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "School house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -251,7 +215,7 @@
                       "properties": {
                         "name": "North Mass",
                         "category": "residential", 
-                        "description": ""
+                        "description": "School house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -295,7 +259,7 @@
                       "properties": {
                         "name": "Mid Mass",
                         "category": "residential", 
-                        "description": ""
+                        "description": "School house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -331,7 +295,7 @@
                       "properties": {
                         "name": "South Mass",
                         "category": "residential", 
-                        "description": ""
+                        "description": "School house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -375,7 +339,7 @@
                       "properties": {
                         "name": "Fahey Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -435,7 +399,7 @@
                       "properties": {
                         "name": "McLane Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -519,7 +483,7 @@
                       "properties": {
                         "name": "Russell Sage",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -563,7 +527,7 @@
                       "properties": {
                         "name": "Butterfield Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -615,7 +579,7 @@
                       "properties": {
                         "name": "Judge Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -683,7 +647,7 @@
                       "properties": {
                         "name": "French Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -895,7 +859,7 @@
                       "properties": {
                         "name": "Cohen Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "Allen house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -947,7 +911,7 @@
                       "properties": {
                         "name": "Bissell Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "Allen house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -999,7 +963,7 @@
                       "properties": {
                         "name": "Brown Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "School house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1051,7 +1015,7 @@
                       "properties": {
                         "name": "Little Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "School house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1103,7 +1067,7 @@
                       "properties": {
                         "name": "Wheeler Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1139,7 +1103,7 @@
                       "properties": {
                         "name": "Richardson Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "West house; South house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1175,7 +1139,7 @@
                       "properties": {
                         "name": "North Faye",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1211,7 +1175,7 @@
                       "properties": {
                         "name": "Mid Faye",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1281,7 +1245,7 @@
                       "properties": {
                         "name": "South Faye",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house; First-year dorm"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1325,7 +1289,7 @@
                       "properties": {
                         "name": "Thomas Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "North Park house; Mixed-class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1377,7 +1341,7 @@
                       "properties": {
                         "name": "Goldstein Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "North Park house; Mixed-class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1445,7 +1409,7 @@
                       "properties": {
                         "name": "Byrne II Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "North Park house; Mixed-class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1497,7 +1461,7 @@
                       "properties": {
                         "name": "Berry Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "North Park house; Mixed-class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1541,7 +1505,7 @@
                       "properties": {
                         "name": "Bildner Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "North Park house; Mixed-class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1593,7 +1557,7 @@
                       "properties": {
                         "name": "Rauner Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "North Park house; Mixed-class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1749,7 +1713,7 @@
                       "properties": {
                         "name": "Andres Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "East Wheelock house; Mixed class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1801,7 +1765,7 @@
                       "properties": {
                         "name": "Zimmerman Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "East Wheelock house; Mixed class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1849,7 +1813,7 @@
                       "properties": {
                         "name": "Morton Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "East Wheelock house; Mixed class"
                       },
                       "geometry": {
                         "coordinates": [
@@ -1901,7 +1865,7 @@
                       "properties": {
                         "name": "McCulloch Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "East Wheelock house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2011,22 +1975,6 @@
                     {
                       "type": "Feature",
                       "properties": {
-                        "name": "Collis Student Center",
-                        "category": "student life", 
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.28993915319964,
-                          43.70290185507301
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 7
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
                         "name": "Rauner Library",
                         "category": "libraries", 
                         "description": ""
@@ -2113,7 +2061,7 @@
                       "properties": {
                         "name": "The Lodge",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2197,7 +2145,7 @@
                       "properties": {
                         "name": "Alumni Gym",
                         "category": "student life", 
-                        "description": ""
+                        "description": "Hours: M-F 6AM-10PM; Sa 9AM-10PM; Su 9AM-8PM"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2289,7 +2237,7 @@
                       "properties": {
                         "name": "New Hamp Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2341,7 +2289,7 @@
                       "properties": {
                         "name": "Topliff Hall",
                         "category": "residential", 
-                        "description": ""
+                        "description": "South house"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2605,7 +2553,7 @@
                       "properties": {
                         "name": "Foco",
                         "category": "dining", 
-                        "description": ""
+                        "description": "DBA and swipe accessible"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2655,86 +2603,6 @@
                     {
                       "type": "Feature",
                       "properties": {
-                        "name": "Novack",
-                        "category": "dining", 
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.28838848717092,
-                          43.70578401320418
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 9
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
-                        "name": "Ramekin",
-                        "category": "dining", 
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.28496695974802,
-                          43.70803901223121
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 10
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
-                        "name": "Fern",
-                        "category": "dining", 
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.29461194539823,
-                          43.70495392210796
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 11
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
-                        "name": "Back of the Napkin",
-                        "category": "dining", 
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.29440225885132,
-                          43.703394059992235
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 12
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
-                        "name": "Courtyard Cafe",
-                        "category": "dining", 
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.28831753603784,
-                          43.701788043054506
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 13
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
                         "name": "Ledyard Canoe Club",
                         "category": "student life",
                         "description": "Students can rent canoes and kayaks from May to October.",
@@ -2780,25 +2648,10 @@
                     {
                       "type": "Feature",
                       "properties": {
-                        "name": "Tucker Meditation Room",
-                        "category": "student life",
-                        "description": ""
-                      },
-                      "geometry": {
-                        "coordinates": [
-                          -72.29105374654644,
-                          43.703459119148135
-                        ],
-                        "type": "Point"
-                      },
-                      "id": 15
-                    },
-                    {
-                      "type": "Feature",
-                      "properties": {
                         "name": "DOC House",
                         "category": "student life",
-                        "description": ""
+                        "description": "",
+                        "link": "https://outdoors.dartmouth.edu/doc/"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2874,7 +2727,7 @@
                       "properties": {
                         "name": "CECS",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Computer Science; Department of Engineering"
                       },
                       "geometry": {
                         "coordinates": [
@@ -2956,9 +2809,9 @@
                     {
                       "type": "Feature",
                       "properties": {
-                        "name": "Thayer",
+                        "name": "Cummings Hall",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Computer Science; Department of Engineering"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3030,7 +2883,7 @@
                       "properties": {
                         "name": "MacLean",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Computer Science; Department of Engineering"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3094,7 +2947,7 @@
                       "properties": {
                         "name": "Irving",
                         "category": "academic",
-                        "description": ""
+                        "description": "Arthur L. Iring Institute for Energy and Society"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3174,7 +3027,7 @@
                       "properties": {
                         "name": "Silsby",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Government"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3234,7 +3087,7 @@
                       "properties": {
                         "name": "Rockefeller",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Economics"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3342,7 +3195,7 @@
                       "properties": {
                         "name": "Carson",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of History"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3394,7 +3247,7 @@
                       "properties": {
                         "name": "Carpenter",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Art History"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3454,7 +3307,7 @@
                       "properties": {
                         "name": "Sudikoff",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Music"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3610,7 +3463,7 @@
                       "properties": {
                         "name": "Life Sciences Center",
                         "category": "academic",
-                        "description": ""
+                        "description": "Department of Biology"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3764,9 +3617,1642 @@
                     {
                       "type": "Feature",
                       "properties": {
+                        "name": "Epsilon Kappa Theta",
+                        "category": "student life",
+                        "description": "co-ed fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29327028202525,
+                              43.70703457839451
+                            ],
+                            [
+                              -72.29322067786303,
+                              43.70702153913075
+                            ],
+                            [
+                              -72.29321278629212,
+                              43.70704028307185
+                            ],
+                            [
+                              -72.29319474841436,
+                              43.70703946811781
+                            ],
+                            [
+                              -72.29317896527175,
+                              43.70705087747044
+                            ],
+                            [
+                              -72.29317558316971,
+                              43.70706310177465
+                            ],
+                            [
+                              -72.29318685684342,
+                              43.70707451112284
+                            ],
+                            [
+                              -72.29319587578193,
+                              43.7070769559829
+                            ],
+                            [
+                              -72.29317896527175,
+                              43.707113628871554
+                            ],
+                            [
+                              -72.29315754529267,
+                              43.707116888682435
+                            ],
+                            [
+                              -72.29315078108861,
+                              43.70714133726145
+                            ],
+                            [
+                              -72.29315754529267,
+                              43.70715763630838
+                            ],
+                            [
+                              -72.29320602208806,
+                              43.70716741573398
+                            ],
+                            [
+                              -72.29318911157786,
+                              43.70721223808303
+                            ],
+                            [
+                              -72.29323420627118,
+                              43.70723342681819
+                            ],
+                            [
+                              -72.29321955049546,
+                              43.70726276505417
+                            ],
+                            [
+                              -72.29326577255637,
+                              43.70727335941348
+                            ],
+                            [
+                              -72.29328155569895,
+                              43.70723587167177
+                            ],
+                            [
+                              -72.29331199461654,
+                              43.707239946427364
+                            ],
+                            [
+                              -72.2933593440443,
+                              43.70713074287826
+                            ],
+                            [
+                              -72.293299593576,
+                              43.707113628871554
+                            ],
+                            [
+                              -72.29330523041247,
+                              43.70710303448345
+                            ],
+                            [
+                              -72.29332214092264,
+                              43.70710303448345
+                            ],
+                            [
+                              -72.29333341459636,
+                              43.70709569990612
+                            ],
+                            [
+                              -72.2933356693308,
+                              43.7070769559829
+                            ],
+                            [
+                              -72.29332665039227,
+                              43.70706717654198
+                            ],
+                            [
+                              -72.29326013571989,
+                              43.70705332233152
+                            ],
+                            [
+                              -72.29327028202525,
+                              43.70703457839451
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 28
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Kappa Delta",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29322412703156,
+                              43.707369639831825
+                            ],
+                            [
+                              -72.29310680861695,
+                              43.70734109095656
+                            ],
+                            [
+                              -72.29306963842687,
+                              43.70742925655705
+                            ],
+                            [
+                              -72.2930464070577,
+                              43.70742421852614
+                            ],
+                            [
+                              -72.29299994431936,
+                              43.707538413787375
+                            ],
+                            [
+                              -72.29296742040262,
+                              43.70753253609516
+                            ],
+                            [
+                              -72.29293721962263,
+                              43.70759803034417
+                            ],
+                            [
+                              -72.29309635450146,
+                              43.707638334461905
+                            ],
+                            [
+                              -72.29313700939696,
+                              43.707550169169565
+                            ],
+                            [
+                              -72.29319276468284,
+                              43.70756108487927
+                            ],
+                            [
+                              -72.29324271212658,
+                              43.707449408675785
+                            ],
+                            [
+                              -72.29322761173698,
+                              43.70744604999007
+                            ],
+                            [
+                              -72.29325316624285,
+                              43.70738559360899
+                            ],
+                            [
+                              -72.29322180389411,
+                              43.707380555574446
+                            ],
+                            [
+                              -72.29322412703156,
+                              43.707369639831825
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 29
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Chi Delta",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29287333188928,
+                              43.707652774610864
+                            ],
+                            [
+                              -72.29284599201559,
+                              43.70762752149034
+                            ],
+                            [
+                              -72.29282624655107,
+                              43.70764399091814
+                            ],
+                            [
+                              -72.292786755622,
+                              43.70762422760424
+                            ],
+                            [
+                              -72.29279283114946,
+                              43.707612150020566
+                            ],
+                            [
+                              -72.29276701015746,
+                              43.707593484659014
+                            ],
+                            [
+                              -72.29275334022088,
+                              43.70760007243442
+                            ],
+                            [
+                              -72.29272751922893,
+                              43.707582505031496
+                            ],
+                            [
+                              -72.29267283948104,
+                              43.70762971741405
+                            ],
+                            [
+                              -72.29265765066225,
+                              43.7076220316803
+                            ],
+                            [
+                              -72.29256044222235,
+                              43.70769998693811
+                            ],
+                            [
+                              -72.29263942407994,
+                              43.70774719922741
+                            ],
+                            [
+                              -72.29266828283536,
+                              43.70776915841938
+                            ],
+                            [
+                              -72.2926470184891,
+                              43.70778562780828
+                            ],
+                            [
+                              -72.29268195277245,
+                              43.70780868494441
+                            ],
+                            [
+                              -72.29287333188928,
+                              43.707652774610864
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 30
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Alpha Chi Alpha",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29293867487786,
+                              43.70693577560104
+                            ],
+                            [
+                              -72.2927787035381,
+                              43.706899015650265
+                            ],
+                            [
+                              -72.2927161981804,
+                              43.70703303619541
+                            ],
+                            [
+                              -72.29269606933654,
+                              43.70702920704122
+                            ],
+                            [
+                              -72.29267276225413,
+                              43.707086644329394
+                            ],
+                            [
+                              -72.292688653447,
+                              43.707088175989554
+                            ],
+                            [
+                              -72.29268123755676,
+                              43.70710655591
+                            ],
+                            [
+                              -72.29286239715279,
+                              43.7071517398565
+                            ],
+                            [
+                              -72.29287299128158,
+                              43.70712646748396
+                            ],
+                            [
+                              -72.29289629836401,
+                              43.70712876497234
+                            ],
+                            [
+                              -72.29290477366665,
+                              43.70710425842026
+                            ],
+                            [
+                              -72.29289312012543,
+                              43.70710119510028
+                            ],
+                            [
+                              -72.2929482095936,
+                              43.7069710038657
+                            ],
+                            [
+                              -72.29292490251117,
+                              43.7069641113811
+                            ],
+                            [
+                              -72.29293867487786,
+                              43.70693577560104
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 31
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Sigma Phi Epsilon",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29214117492728,
+                              43.706891242511205
+                            ],
+                            [
+                              -72.29245509441982,
+                              43.70696409810347
+                            ],
+                            [
+                              -72.29252035663005,
+                              43.70682376143287
+                            ],
+                            [
+                              -72.29221635038475,
+                              43.70675448874243
+                            ],
+                            [
+                              -72.29214117492728,
+                              43.706891242511205
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 32
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "The Tabard",
+                        "category": "student life",
+                        "description": "gender-inclusive fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29063588337668,
+                              43.70650107645028
+                            ],
+                            [
+                              -72.2906083206711,
+                              43.706570414609274
+                            ],
+                            [
+                              -72.29072849406768,
+                              43.70659751225884
+                            ],
+                            [
+                              -72.29079464456156,
+                              43.70643652016133
+                            ],
+                            [
+                              -72.29057304040755,
+                              43.70638790365041
+                            ],
+                            [
+                              -72.29056642535808,
+                              43.70640623447059
+                            ],
+                            [
+                              -72.2905234275373,
+                              43.706397467557366
+                            ],
+                            [
+                              -72.29050358238894,
+                              43.706450069017876
+                            ],
+                            [
+                              -72.29054327268571,
+                              43.70645963291443
+                            ],
+                            [
+                              -72.29053555512775,
+                              43.70647716672187
+                            ],
+                            [
+                              -72.29063588337668,
+                              43.70650107645028
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 33
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Phi Delta Alpha",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29123195828441,
+                              43.706541986082584
+                            ],
+                            [
+                              -72.29098048608917,
+                              43.70647802420305
+                            ],
+                            [
+                              -72.29092149878416,
+                              43.70661492498451
+                            ],
+                            [
+                              -72.29101308433667,
+                              43.70663287916187
+                            ],
+                            [
+                              -72.29100221825418,
+                              43.7066665432302
+                            ],
+                            [
+                              -72.29106120555922,
+                              43.706680008852516
+                            ],
+                            [
+                              -72.29107672853428,
+                              43.70664185624855
+                            ],
+                            [
+                              -72.29117452327726,
+                              43.7066732760417
+                            ],
+                            [
+                              -72.29123195828441,
+                              43.706541986082584
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 34
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Chi Gamma Epsilon",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29161382347006,
+                              43.70664185624855
+                            ],
+                            [
+                              -72.29135924667963,
+                              43.70658126088651
+                            ],
+                            [
+                              -72.29134061910987,
+                              43.70661716925679
+                            ],
+                            [
+                              -72.29130646856451,
+                              43.706608192166414
+                            ],
+                            [
+                              -72.2912847363995,
+                              43.70666542109532
+                            ],
+                            [
+                              -72.29131888694486,
+                              43.7066732760417
+                            ],
+                            [
+                              -72.29130957315974,
+                              43.706692352336745
+                            ],
+                            [
+                              -72.2915672545449,
+                              43.7067551918536
+                            ],
+                            [
+                              -72.29157656833003,
+                              43.70673499344505
+                            ],
+                            [
+                              -72.29161227117275,
+                              43.70674284838233
+                            ],
+                            [
+                              -72.29164952631281,
+                              43.70666766536573
+                            ],
+                            [
+                              -72.29160606198283,
+                              43.706658688282914
+                            ],
+                            [
+                              -72.29161382347006,
+                              43.70664185624855
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 35
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Kappa Delta Epsilon",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29215739059022,
+                              43.70676416888165
+                            ],
+                            [
+                              -72.29188263393212,
+                              43.706700207239294
+                            ],
+                            [
+                              -72.29183451270958,
+                              43.70682588619073
+                            ],
+                            [
+                              -72.29191988907219,
+                              43.706847206700814
+                            ],
+                            [
+                              -72.29190747069232,
+                              43.70687638212382
+                            ],
+                            [
+                              -72.29197266718728,
+                              43.70689321409236
+                            ],
+                            [
+                              -72.29198663786502,
+                              43.706862916545646
+                            ],
+                            [
+                              -72.2920968509873,
+                              43.70688760343694
+                            ],
+                            [
+                              -72.29215739059022,
+                              43.70676416888165
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 36
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Sigma Nu Delta Beta",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29249614441765,
+                              43.706284797474524
+                            ],
+                            [
+                              -72.2922344600804,
+                              43.70622710079644
+                            ],
+                            [
+                              -72.29218866532186,
+                              43.70634438578918
+                            ],
+                            [
+                              -72.29244642439402,
+                              43.70640113650924
+                            ],
+                            [
+                              -72.29249614441765,
+                              43.706284797474524
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 37
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Bones Gate",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29197813285404,
+                              43.70613032696701
+                            ],
+                            [
+                              -72.2918621737374,
+                              43.7061014950674
+                            ],
+                            [
+                              -72.29184666328264,
+                              43.70613620013006
+                            ],
+                            [
+                              -72.2918067792553,
+                              43.70612765734731
+                            ],
+                            [
+                              -72.29177132678659,
+                              43.70620881373537
+                            ],
+                            [
+                              -72.29178388286925,
+                              43.706212017274794
+                            ],
+                            [
+                              -72.29176689522794,
+                              43.706247790119505
+                            ],
+                            [
+                              -72.29186512811002,
+                              43.70627021487729
+                            ],
+                            [
+                              -72.29188063856525,
+                              43.70623978127574
+                            ],
+                            [
+                              -72.29204091326741,
+                              43.706277155871476
+                            ],
+                            [
+                              -72.29208153588756,
+                              43.706186388955274
+                            ],
+                            [
+                              -72.29196631536463,
+                              43.70615755708195
+                            ],
+                            [
+                              -72.29197813285404,
+                              43.70613032696701
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 38
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Zeta Psi",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.2916706697825,
+                              43.70606065899395
+                            ],
+                            [
+                              -72.29146422262068,
+                              43.70601091249807
+                            ],
+                            [
+                              -72.29145823864503,
+                              43.70602226768
+                            ],
+                            [
+                              -72.29143953872055,
+                              43.70601631972778
+                            ],
+                            [
+                              -72.29143280674829,
+                              43.706034704305694
+                            ],
+                            [
+                              -72.29141261082998,
+                              43.70602767490868
+                            ],
+                            [
+                              -72.29139989488161,
+                              43.706056333213695
+                            ],
+                            [
+                              -72.29137670697574,
+                              43.706050925987626
+                            ],
+                            [
+                              -72.2913595030455,
+                              43.70608607294929
+                            ],
+                            [
+                              -72.29138568293942,
+                              43.706092561617
+                            ],
+                            [
+                              -72.2913632430307,
+                              43.70614338948906
+                            ],
+                            [
+                              -72.29157791815906,
+                              43.706195298760974
+                            ],
+                            [
+                              -72.29159437409214,
+                              43.70616069258517
+                            ],
+                            [
+                              -72.29165645784032,
+                              43.70617421062471
+                            ],
+                            [
+                              -72.29168936970649,
+                              43.706104998228085
+                            ],
+                            [
+                              -72.29165720583694,
+                              43.70609418378345
+                            ],
+                            [
+                              -72.2916706697825,
+                              43.70606065899395
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 39
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Beta Alpha Omega",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29110376845844,
+                              43.70597372750265
+                            ],
+                            [
+                              -72.29086814941466,
+                              43.70591965514376
+                            ],
+                            [
+                              -72.29082252160005,
+                              43.70602347403019
+                            ],
+                            [
+                              -72.29112396437624,
+                              43.70609214579852
+                            ],
+                            [
+                              -72.29113668032463,
+                              43.70606456895595
+                            ],
+                            [
+                              -72.29116734819989,
+                              43.706070516903395
+                            ],
+                            [
+                              -72.29118904011197,
+                              43.70602185186107
+                            ],
+                            [
+                              -72.29115986823048,
+                              43.70601428174018
+                            ],
+                            [
+                              -72.29117333217603,
+                              43.70598616413838
+                            ],
+                            [
+                              -72.29116360821517,
+                              43.70598454196829
+                            ],
+                            [
+                              -72.2911710881851,
+                              43.70596886099193
+                            ],
+                            [
+                              -72.29111124842784,
+                              43.70595480218239
+                            ],
+                            [
+                              -72.29110376845844,
+                              43.70597372750265
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 40
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Kappa Pi Kappa",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29005329749333,
+                              43.70624268926653
+                            ],
+                            [
+                              -72.28991791915796,
+                              43.70621252994482
+                            ],
+                            [
+                              -72.28990940479693,
+                              43.706234687815424
+                            ],
+                            [
+                              -72.28985746719663,
+                              43.706222993384785
+                            ],
+                            [
+                              -72.28984810139988,
+                              43.706243920259254
+                            ],
+                            [
+                              -72.28982255831731,
+                              43.70623961178552
+                            ],
+                            [
+                              -72.2898038267238,
+                              43.706293159934745
+                            ],
+                            [
+                              -72.29022017896405,
+                              43.70637686729074
+                            ],
+                            [
+                              -72.29024742491802,
+                              43.70630731633409
+                            ],
+                            [
+                              -72.29012056094315,
+                              43.706280234524
+                            ],
+                            [
+                              -72.29013162961246,
+                              43.70625192170917
+                            ],
+                            [
+                              -72.29011034371014,
+                              43.70624699774007
+                            ],
+                            [
+                              -72.2901111951464,
+                              43.70623899628953
+                            ],
+                            [
+                              -72.29010012647765,
+                              43.70623222583001
+                            ],
+                            [
+                              -72.2900865035001,
+                              43.70623222583001
+                            ],
+                            [
+                              -72.29007884057589,
+                              43.70623961178552
+                            ],
+                            [
+                              -72.29005585180158,
+                              43.70623345682296
+                            ],
+                            [
+                              -72.29005329749333,
+                              43.70624268926653
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 41
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Gamma Delta Chi",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28998092543449,
+                              43.706519046458425
+                            ],
+                            [
+                              -72.28985150715137,
+                              43.706507352083264
+                            ],
+                            [
+                              -72.28983532986612,
+                              43.706632297132444
+                            ],
+                            [
+                              -72.2900856520719,
+                              43.706651992880126
+                            ],
+                            [
+                              -72.29010353222914,
+                              43.706519661951944
+                            ],
+                            [
+                              -72.28998177687076,
+                              43.70651042955055
+                            ],
+                            [
+                              -72.28998092543449,
+                              43.706519046458425
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 42
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Phi Tau",
+                        "category": "student life",
+                        "description": "co-ed fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28904725466886,
+                              43.70674372531954
+                            ],
+                            [
+                              -72.28901387046973,
+                              43.70672884332262
+                            ],
+                            [
+                              -72.28895322250722,
+                              43.706802448837635
+                            ],
+                            [
+                              -72.2889871631098,
+                              43.70681652638493
+                            ],
+                            [
+                              -72.2889420944411,
+                              43.706869216603735
+                            ],
+                            [
+                              -72.28907229281842,
+                              43.70692512449483
+                            ],
+                            [
+                              -72.28921973969913,
+                              43.706742920887194
+                            ],
+                            [
+                              -72.28918858111307,
+                              43.70672964775511
+                            ],
+                            [
+                              -72.28919859637303,
+                              43.70671717905287
+                            ],
+                            [
+                              -72.28913961762089,
+                              43.70669143720693
+                            ],
+                            [
+                              -72.28912960236092,
+                              43.70670430813101
+                            ],
+                            [
+                              -72.28909454895143,
+                              43.7066886216918
+                            ],
+                            [
+                              -72.28904725466886,
+                              43.70674372531954
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 43
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Alpha Theta",
+                        "category": "student life",
+                        "description": "gender-inclusive fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28885597868207,
+                              43.70720488981999
+                            ],
+                            [
+                              -72.2889917410932,
+                              43.70702228484896
+                            ],
+                            [
+                              -72.28886655034549,
+                              43.706972812480814
+                            ],
+                            [
+                              -72.2888409557925,
+                              43.707004989635294
+                            ],
+                            [
+                              -72.28885709148895,
+                              43.70701263170713
+                            ],
+                            [
+                              -72.28883316614561,
+                              43.70704561326798
+                            ],
+                            [
+                              -72.28874581082393,
+                              43.70701102285017
+                            ],
+                            [
+                              -72.28873913398395,
+                              43.707021078206054
+                            ],
+                            [
+                              -72.28870964460825,
+                              43.70701021842143
+                            ],
+                            [
+                              -72.28870519338135,
+                              43.707017056063876
+                            ],
+                            [
+                              -72.28869517812139,
+                              43.70701263170713
+                            ],
+                            [
+                              -72.2886757040049,
+                              43.70704159112748
+                            ],
+                            [
+                              -72.28868794487869,
+                              43.70704601548212
+                            ],
+                            [
+                              -72.28865456067881,
+                              43.707089454583524
+                            ],
+                            [
+                              -72.28871854706131,
+                              43.70711479404477
+                            ],
+                            [
+                              -72.28869684733174,
+                              43.70714294898934
+                            ],
+                            [
+                              -72.28885597868207,
+                              43.70720488981999
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 44
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Psi Upsilon",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29071145523453,
+                              43.702649507827545
+                            ],
+                            [
+                              -72.29056619633388,
+                              43.70265164006631
+                            ],
+                            [
+                              -72.2905691457529,
+                              43.702715074141594
+                            ],
+                            [
+                              -72.29052121768919,
+                              43.70271667331946
+                            ],
+                            [
+                              -72.2905249044637,
+                              43.70280622719116
+                            ],
+                            [
+                              -72.29071661671807,
+                              43.70280196272381
+                            ],
+                            [
+                              -72.29071145523453,
+                              43.702649507827545
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 45
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Theta Delta Chi",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.2915410891756,
+                              43.70263868919935
+                            ],
+                            [
+                              -72.29139014750318,
+                              43.70264146346372
+                            ],
+                            [
+                              -72.29139590375387,
+                              43.70279959631972
+                            ],
+                            [
+                              -72.29142084750461,
+                              43.702800058696
+                            ],
+                            [
+                              -72.29142212667165,
+                              43.70284352203885
+                            ],
+                            [
+                              -72.29152190167471,
+                              43.70284305966288
+                            ],
+                            [
+                              -72.29151998292419,
+                              43.70280144582418
+                            ],
+                            [
+                              -72.29154556625846,
+                              43.70279820919092
+                            ],
+                            [
+                              -72.2915410891756,
+                              43.70263868919935
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 46
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Sigma Alpha Epsilon",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28788573332415,
+                              43.70577533668305
+                            ],
+                            [
+                              -72.2876337294909,
+                              43.70577202444741
+                            ],
+                            [
+                              -72.28763029307494,
+                              43.7058622827968
+                            ],
+                            [
+                              -72.28788229690822,
+                              43.70586518099799
+                            ],
+                            [
+                              -72.28788573332415,
+                              43.70577533668305
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 47
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Chi Heorot",
+                        "category": "student life",
+                        "description": "fraternity"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28445810468236,
+                              43.70363186198591
+                            ],
+                            [
+                              -72.28429891059662,
+                              43.703674527674735
+                            ],
+                            [
+                              -72.28431444172695,
+                              43.70370259718993
+                            ],
+                            [
+                              -72.28423600951913,
+                              43.70372336862249
+                            ],
+                            [
+                              -72.28427949668387,
+                              43.703807015671515
+                            ],
+                            [
+                              -72.28429968715332,
+                              43.70380364733617
+                            ],
+                            [
+                              -72.28431288861408,
+                              43.70382890984615
+                            ],
+                            [
+                              -72.2843936504915,
+                              43.70380645428219
+                            ],
+                            [
+                              -72.28438588492658,
+                              43.703792419550894
+                            ],
+                            [
+                              -72.28452100575984,
+                              43.7037559292327
+                            ],
+                            [
+                              -72.28453110099433,
+                              43.703772770920835
+                            ],
+                            [
+                              -72.28461807532426,
+                              43.703749753946
+                            ],
+                            [
+                              -72.28460720353308,
+                              43.70373066669205
+                            ],
+                            [
+                              -72.28461962843713,
+                              43.703726736962324
+                            ],
+                            [
+                              -72.28456604603743,
+                              43.70362737085949
+                            ],
+                            [
+                              -72.2844705295864,
+                              43.7036537562245
+                            ],
+                            [
+                              -72.28445810468236,
+                              43.70363186198591
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 48
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Alpha Xi Delta",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28330813157885,
+                              43.70392100291744
+                            ],
+                            [
+                              -72.28319363627138,
+                              43.70394999909729
+                            ],
+                            [
+                              -72.28318780211566,
+                              43.703938927829995
+                            ],
+                            [
+                              -72.28314039959994,
+                              43.7039521079096
+                            ],
+                            [
+                              -72.28314550448648,
+                              43.703963706376925
+                            ],
+                            [
+                              -72.28303903114363,
+                              43.70399006652161
+                            ],
+                            [
+                              -72.28304413602972,
+                              43.70400008337387
+                            ],
+                            [
+                              -72.28303757260437,
+                              43.70400851861626
+                            ],
+                            [
+                              -72.2830470531078,
+                              43.70402749790776
+                            ],
+                            [
+                              -72.283060179958,
+                              43.704035405943785
+                            ],
+                            [
+                              -72.28310612393491,
+                              43.70411975826576
+                            ],
+                            [
+                              -72.28313748252235,
+                              43.704113959047504
+                            ],
+                            [
+                              -72.28314404594767,
+                              43.70412503028177
+                            ],
+                            [
+                              -72.28335407555578,
+                              43.704070201290676
+                            ],
+                            [
+                              -72.28334532432197,
+                              43.70405385802448
+                            ],
+                            [
+                              -72.28337230729251,
+                              43.70404594999016
+                            ],
+                            [
+                              -72.28330813157885,
+                              43.70392100291744
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 49
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Alpha Phi",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28277734960048,
+                              43.704399859730586
+                            ],
+                            [
+                              -72.28261621094975,
+                              43.70441726619029
+                            ],
+                            [
+                              -72.28265418040218,
+                              43.70458463573647
+                            ],
+                            [
+                              -72.28272826713818,
+                              43.70457660200924
+                            ],
+                            [
+                              -72.28274030623248,
+                              43.7046428802289
+                            ],
+                            [
+                              -72.28290607530408,
+                              43.704624134881215
+                            ],
+                            [
+                              -72.28287921886219,
+                              43.704498942587406
+                            ],
+                            [
+                              -72.28280142778975,
+                              43.70450630684721
+                            ],
+                            [
+                              -72.28277734960048,
+                              43.704399859730586
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 50
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Kappa Kappa Gamma",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.2814129000146,
+                              43.70374304059686
+                            ],
+                            [
+                              -72.28129953064173,
+                              43.70377265093816
+                            ],
+                            [
+                              -72.28133463857655,
+                              43.703837687886335
+                            ],
+                            [
+                              -72.2812966049803,
+                              43.70384879174827
+                            ],
+                            [
+                              -72.28135146112875,
+                              43.70395137018761
+                            ],
+                            [
+                              -72.28138876330955,
+                              43.70394238136228
+                            ],
+                            [
+                              -72.28140631727673,
+                              43.703978336655325
+                            ],
+                            [
+                              -72.28157966270496,
+                              43.70393180627238
+                            ],
+                            [
+                              -72.281576737044,
+                              43.70392546121721
+                            ],
+                            [
+                              -72.28158770827332,
+                              43.70392281744415
+                            ],
+                            [
+                              -72.28154309193965,
+                              43.70383610162045
+                            ],
+                            [
+                              -72.28150432692837,
+                              43.70384720548273
+                            ],
+                            [
+                              -72.28151090966627,
+                              43.70385936685361
+                            ],
+                            [
+                              -72.2814758017314,
+                              43.703868884446564
+                            ],
+                            [
+                              -72.2814129000146,
+                              43.70374304059686
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 51
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Sigma Delta",
+                        "category": "student life",
+                        "description": "sorority"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.29126353307774,
+                              43.70210368606786
+                            ],
+                            [
+                              -72.29102114872823,
+                              43.7021132192929
+                            ],
+                            [
+                              -72.29102993987003,
+                              43.70222716391564
+                            ],
+                            [
+                              -72.29127169628148,
+                              43.70221899259525
+                            ],
+                            [
+                              -72.29126353307774,
+                              43.70210368606786
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 52
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
                         "name": "The Green",
                         "category": "student life",
-                        "description": ""
+                        "description": "",
+                        "image": "images/green.jpeg"
                       },
                       "geometry": {
                         "coordinates": [
@@ -3776,6 +5262,944 @@
                         "type": "Point"
                       },
                       "id": 27
-                    }
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Haldeman Center",
+                        "category": "academic",
+                        "description": "Dickey Center for International Understanding; the Ethics Institute; the Fannie and Alan Leslie Center for the Humanities"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.2892484050617,
+                              43.706006825160244
+                            ],
+                            [
+                              -72.28903732518901,
+                              43.70601076292874
+                            ],
+                            [
+                              -72.28904004880043,
+                              43.70603931174074
+                            ],
+                            [
+                              -72.28897059671337,
+                              43.70604029618184
+                            ],
+                            [
+                              -72.28897740574132,
+                              43.70613480249477
+                            ],
+                            [
+                              -72.28896106407397,
+                              43.70613480249477
+                            ],
+                            [
+                              -72.28892974254444,
+                              43.706156460171
+                            ],
+                            [
+                              -72.28892974254444,
+                              43.706190915547666
+                            ],
+                            [
+                              -72.28895834046256,
+                              43.706208635448434
+                            ],
+                            [
+                              -72.28898557657519,
+                              43.70620765100941
+                            ],
+                            [
+                              -72.28903868699499,
+                              43.70620961988678
+                            ],
+                            [
+                              -72.2890468578284,
+                              43.70638977190873
+                            ],
+                            [
+                              -72.2892497668672,
+                              43.706393709651394
+                            ],
+                            [
+                              -72.28924431964475,
+                              43.706204697692925
+                            ],
+                            [
+                              -72.28934236964997,
+                              43.70620272881544
+                            ],
+                            [
+                              -72.2893355606216,
+                              43.70603143620724
+                            ],
+                            [
+                              -72.2892497668672,
+                              43.70603045176597
+                            ],
+                            [
+                              -72.2892484050617,
+                              43.706006825160244
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 53
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Kemeny Hall",
+                        "category": "academic",
+                        "description": "mathematics department"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28934100806059,
+                              43.706383157006684
+                            ],
+                            [
+                              -72.28925112888881,
+                              43.70639497023586
+                            ],
+                            [
+                              -72.28904549623901,
+                              43.706389063621884
+                            ],
+                            [
+                              -72.28872955733362,
+                              43.70639201692933
+                            ],
+                            [
+                              -72.2885715878807,
+                              43.706378234826445
+                            ],
+                            [
+                              -72.28854298996258,
+                              43.7063674060297
+                            ],
+                            [
+                              -72.28851847746095,
+                              43.70634771730312
+                            ],
+                            [
+                              -72.2884735378755,
+                              43.70633984181083
+                            ],
+                            [
+                              -72.2884367691235,
+                              43.70634771730312
+                            ],
+                            [
+                              -72.2884122566223,
+                              43.70636149941299
+                            ],
+                            [
+                              -72.28840408578844,
+                              43.70639595467182
+                            ],
+                            [
+                              -72.28841634203926,
+                              43.706424503300326
+                            ],
+                            [
+                              -72.28838365870416,
+                              43.706578074999044
+                            ],
+                            [
+                              -72.28854571357358,
+                              43.70659284148729
+                            ],
+                            [
+                              -72.28855252260195,
+                              43.70656429293962
+                            ],
+                            [
+                              -72.28864376357878,
+                              43.706568230670825
+                            ],
+                            [
+                              -72.28864921080122,
+                              43.70653672881065
+                            ],
+                            [
+                              -72.28898966220824,
+                              43.70654657314398
+                            ],
+                            [
+                              -72.28899510943111,
+                              43.70655543304244
+                            ],
+                            [
+                              -72.28932194278185,
+                              43.70655346417581
+                            ],
+                            [
+                              -72.28934100806059,
+                              43.706383157006684
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 54
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Moore Psychology Building",
+                        "category": "academic",
+                        "description": "Department of Psychological and Brain Sciences"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28801355981716,
+                              43.70699792703192
+                            ],
+                            [
+                              -72.28782854219044,
+                              43.707201984947574
+                            ],
+                            [
+                              -72.28777039379385,
+                              43.70717600008305
+                            ],
+                            [
+                              -72.2876318948844,
+                              43.707328852065274
+                            ],
+                            [
+                              -72.28808488372877,
+                              43.70754254908911
+                            ],
+                            [
+                              -72.28822660547497,
+                              43.707389428771705
+                            ],
+                            [
+                              -72.28821289046715,
+                              43.7073828192527
+                            ],
+                            [
+                              -72.28822965325419,
+                              43.70736519386563
+                            ],
+                            [
+                              -72.2880086892421,
+                              43.70725833984386
+                            ],
+                            [
+                              -72.2881747932238,
+                              43.707074374226465
+                            ],
+                            [
+                              -72.28801355981716,
+                              43.70699792703192
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 55
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Winifred-Raven House",
+                        "category": "academic",
+                        "description": "Education Department"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28768724323396,
+                              43.70698631925379
+                            ],
+                            [
+                              -72.28756684638174,
+                              43.706931395601
+                            ],
+                            [
+                              -72.28752944153428,
+                              43.706971109631695
+                            ],
+                            [
+                              -72.28749788119482,
+                              43.70695674498526
+                            ],
+                            [
+                              -72.28730501245118,
+                              43.70717728417776
+                            ],
+                            [
+                              -72.28740436907658,
+                              43.70722375785013
+                            ],
+                            [
+                              -72.28742424040168,
+                              43.70720094350645
+                            ],
+                            [
+                              -72.28745930744638,
+                              43.70721699804554
+                            ],
+                            [
+                              -72.28751307691365,
+                              43.70716122962753
+                            ],
+                            [
+                              -72.28755165066286,
+                              43.70717728417776
+                            ],
+                            [
+                              -72.28761360244084,
+                              43.7071063061351
+                            ],
+                            [
+                              -72.28759373111573,
+                              43.70709532143073
+                            ],
+                            [
+                              -72.28768724323396,
+                              43.70698631925379
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 56
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Steele Hall",
+                        "category": "academic",
+                        "description": "Chemistry Department"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28667343459648,
+                              43.70553785737019
+                            ],
+                            [
+                              -72.28656415600403,
+                              43.70550388842068
+                            ],
+                            [
+                              -72.28642427940655,
+                              43.70570059206986
+                            ],
+                            [
+                              -72.28662207365771,
+                              43.70577721942132
+                            ],
+                            [
+                              -72.28659366122432,
+                              43.70582303779051
+                            ],
+                            [
+                              -72.2867477440392,
+                              43.705879125746804
+                            ],
+                            [
+                              -72.28678271318822,
+                              43.705836467305915
+                            ],
+                            [
+                              -72.28697067236666,
+                              43.705893345220545
+                            ],
+                            [
+                              -72.28710071389145,
+                              43.70569269233761
+                            ],
+                            [
+                              -72.28700017758698,
+                              43.705655563580564
+                            ],
+                            [
+                              -72.28696520843724,
+                              43.705689532444126
+                            ],
+                            [
+                              -72.28665704280743,
+                              43.70557814609913
+                            ],
+                            [
+                              -72.28667343459648,
+                              43.70553785737019
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 57
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Fairchild",
+                        "category": "academic",
+                        "description": "Department of Geography; Department of Earth Sciences"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28648855388488,
+                              43.70560185437637
+                            ],
+                            [
+                              -72.28643719294612,
+                              43.705588424808894
+                            ],
+                            [
+                              -72.28640768772654,
+                              43.70559790450386
+                            ],
+                            [
+                              -72.2863978526531,
+                              43.70557973508636
+                            ],
+                            [
+                              -72.28640768772654,
+                              43.70556156566386
+                            ],
+                            [
+                              -72.28618913054234,
+                              43.70551732704541
+                            ],
+                            [
+                              -72.28613776960357,
+                              43.70565241272337
+                            ],
+                            [
+                              -72.2861694603955,
+                              43.705656362592265
+                            ],
+                            [
+                              -72.28620442954524,
+                              43.705646882906024
+                            ],
+                            [
+                              -72.28620333675903,
+                              43.70566900217128
+                            ],
+                            [
+                              -72.28618803775616,
+                              43.70568875150883
+                            ],
+                            [
+                              -72.2862153574041,
+                              43.705699811134764
+                            ],
+                            [
+                              -72.28606236737538,
+                              43.705968401423604
+                            ],
+                            [
+                              -72.28611044995561,
+                              43.705983410845306
+                            ],
+                            [
+                              -72.28608203752154,
+                              43.706033968870486
+                            ],
+                            [
+                              -72.28638237456563,
+                              43.70614001809065
+                            ],
+                            [
+                              -72.28657365095394,
+                              43.70585683558309
+                            ],
+                            [
+                              -72.28652468419827,
+                              43.705838030447325
+                            ],
+                            [
+                              -72.28654916757611,
+                              43.70580042015814
+                            ],
+                            [
+                              -72.2865277446207,
+                              43.705790464490036
+                            ],
+                            [
+                              -72.28654916757611,
+                              43.70574842942571
+                            ],
+                            [
+                              -72.28642522047649,
+                              43.705699757209885
+                            ],
+                            [
+                              -72.28648855388488,
+                              43.70560185437637
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 58
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Burke Laboratory",
+                        "category": "academic",
+                        "description": "Chemistry Lab"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28607778136929,
+                              43.70603599254633
+                            ],
+                            [
+                              -72.28601198229158,
+                              43.70613223021377
+                            ],
+                            [
+                              -72.28593394152519,
+                              43.706105681906735
+                            ],
+                            [
+                              -72.28586508202557,
+                              43.706166521759144
+                            ],
+                            [
+                              -72.28588497477004,
+                              43.70617868972204
+                            ],
+                            [
+                              -72.285868142448,
+                              43.7061952823951
+                            ],
+                            [
+                              -72.28584977991447,
+                              43.70618200825703
+                            ],
+                            [
+                              -72.28574572555931,
+                              43.706264971570334
+                            ],
+                            [
+                              -72.28576255788185,
+                              43.70627492716042
+                            ],
+                            [
+                              -72.28560647634912,
+                              43.7064065620273
+                            ],
+                            [
+                              -72.2856294295155,
+                              43.70641983611566
+                            ],
+                            [
+                              -72.28559882529328,
+                              43.7064463842828
+                            ],
+                            [
+                              -72.28568910774888,
+                              43.70649726823791
+                            ],
+                            [
+                              -72.28571053070426,
+                              43.70648288799444
+                            ],
+                            [
+                              -72.28575643703702,
+                              43.70650943613367
+                            ],
+                            [
+                              -72.28572277239297,
+                              43.706540408948314
+                            ],
+                            [
+                              -72.28577632978147,
+                              43.706573594089576
+                            ],
+                            [
+                              -72.28588803519196,
+                              43.70647625095762
+                            ],
+                            [
+                              -72.28594159258098,
+                              43.70650722378937
+                            ],
+                            [
+                              -72.28622009100192,
+                              43.706281564219495
+                            ],
+                            [
+                              -72.28626599733468,
+                              43.706309218624114
+                            ],
+                            [
+                              -72.28633026620143,
+                              43.70630479392065
+                            ],
+                            [
+                              -72.2864343205566,
+                              43.70622404301727
+                            ],
+                            [
+                              -72.28642819971176,
+                              43.70616099086621
+                            ],
+                            [
+                              -72.28607778136929,
+                              43.70603599254633
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 59
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Wilder Hall",
+                        "category": "academic",
+                        "description": "Department of Physics and Astronomy"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28638694591253,
+                              43.70555739704071
+                            ],
+                            [
+                              -72.28658740328335,
+                              43.70503865663926
+                            ],
+                            [
+                              -72.28646538575329,
+                              43.70501660482202
+                            ],
+                            [
+                              -72.2864232606539,
+                              43.70512791391076
+                            ],
+                            [
+                              -72.28633029491672,
+                              43.7051100624671
+                            ],
+                            [
+                              -72.2863375578647,
+                              43.70508801067609
+                            ],
+                            [
+                              -72.28619375149066,
+                              43.705058608275976
+                            ],
+                            [
+                              -72.28617777300421,
+                              43.70509431118862
+                            ],
+                            [
+                              -72.28606156583311,
+                              43.70507225939187
+                            ],
+                            [
+                              -72.28589742320364,
+                              43.705500692842804
+                            ],
+                            [
+                              -72.28604994511612,
+                              43.70553324525923
+                            ],
+                            [
+                              -72.2860644710126,
+                              43.70549124213781
+                            ],
+                            [
+                              -72.28638694591253,
+                              43.70555739704071
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 60
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Dick's House",
+                        "category": "student life",
+                        "description": "To call: 603-646-9401\nHours: Monday-Friday 8AM-4:30PM\nSaturday 9AM-1PM",
+                        "link": "https://students.dartmouth.edu/health-service/primary-care/about/appointments-location-hours"
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          [
+                            [
+                              -72.28720443635862,
+                              43.70832099953978
+                            ],
+                            [
+                              -72.2870413719667,
+                              43.70851076775506
+                            ],
+                            [
+                              -72.28709919621895,
+                              43.70853668319157
+                            ],
+                            [
+                              -72.28708069245837,
+                              43.70855925469138
+                            ],
+                            [
+                              -72.28703905899683,
+                              43.708543371044215
+                            ],
+                            [
+                              -72.2870205552355,
+                              43.70856928646663
+                            ],
+                            [
+                              -72.28705178033229,
+                              43.70858349814509
+                            ],
+                            [
+                              -72.28703905899683,
+                              43.70860021776258
+                            ],
+                            [
+                              -72.28692803643204,
+                              43.708553402822105
+                            ],
+                            [
+                              -72.28686327326939,
+                              43.70863198502255
+                            ],
+                            [
+                              -72.28691647158112,
+                              43.70865455648703
+                            ],
+                            [
+                              -72.28678794826098,
+                              43.70880412410452
+                            ],
+                            [
+                              -72.28672604660106,
+                              43.70881128351101
+                            ],
+                            [
+                              -72.28668395347268,
+                              43.70885423993258
+                            ],
+                            [
+                              -72.28675080726487,
+                              43.70888645722843
+                            ],
+                            [
+                              -72.28670128593807,
+                              43.7089401526834
+                            ],
+                            [
+                              -72.28681270892476,
+                              43.70899563793617
+                            ],
+                            [
+                              -72.28684984992007,
+                              43.708954471463045
+                            ],
+                            [
+                              -72.28696374897291,
+                              43.709006377011576
+                            ],
+                            [
+                              -72.28703555489817,
+                              43.70892762374828
+                            ],
+                            [
+                              -72.28693403617685,
+                              43.70887392828209
+                            ],
+                            [
+                              -72.2870816347583,
+                              43.70871539109814
+                            ],
+                            [
+                              -72.28713672436923,
+                              43.708740937402666
+                            ],
+                            [
+                              -72.28719285340705,
+                              43.70868007707131
+                            ],
+                            [
+                              -72.28708995017118,
+                              43.70862447622048
+                            ],
+                            [
+                              -72.28711385698365,
+                              43.70860343804728
+                            ],
+                            [
+                              -72.2871419215022,
+                              43.70861470849832
+                            ],
+                            [
+                              -72.28716167060789,
+                              43.708592918957976
+                            ],
+                            [
+                              -72.28713152723627,
+                              43.70857638895677
+                            ],
+                            [
+                              -72.28714919748889,
+                              43.70855685349471
+                            ],
+                            [
+                              -72.28720532652673,
+                              43.708577140320756
+                            ],
+                            [
+                              -72.28735396453379,
+                              43.708391553177165
+                            ],
+                            [
+                              -72.28720443635862,
+                              43.70832099953978
+                            ]
+                          ]
+                        ],
+                        "type": "Polygon"
+                      },
+                      "id": 61
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Collis Student Center",
+                        "category": "student life", 
+                        "description": ""
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          -72.28993915319964,
+                          43.70290185507301
+                        ],
+                        "type": "Point"
+                      },
+                      "id": 7
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Novack",
+                        "category": "dining", 
+                        "description": ""
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          -72.28838848717092,
+                          43.70578401320418
+                        ],
+                        "type": "Point"
+                      },
+                      "id": 9
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Ramekin",
+                        "category": "dining", 
+                        "description": ""
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          -72.28496695974802,
+                          43.70803901223121
+                        ],
+                        "type": "Point"
+                      },
+                      "id": 10
+                    },
+                    {
+                      "type": "Feature",
+                      "properties": {
+                        "name": "Fern",
+                        "category": "dining", 
+                        "description": ""
+                      },
+                      "geometry": {
+                        "coordinates": [
+                          -72.29461194539823,
+                          43.70495392210796
+                        ],
+                        "type": "Point"
+                      },
+                      "id": 11
+                    },
+                    {
+                    "type": "Feature",
+                    "properties": {
+                      "name": "Back of the Napkin",
+                      "category": "dining", 
+                      "description": ""
+                    },
+                    "geometry": {
+                      "coordinates": [
+                        -72.29440225885132,
+                        43.703394059992235
+                      ],
+                      "type": "Point"
+                    },
+                    "id": 12
+                  },
+                  {
+                    "type": "Feature",
+                    "properties": {
+                      "name": "Courtyard Cafe",
+                      "category": "dining", 
+                      "description": ""
+                    },
+                    "geometry": {
+                      "coordinates": [
+                        -72.28831753603784,
+                        43.701788043054506
+                      ],
+                      "type": "Point"
+                    },
+                    "id": 13
+                  },
+                  {
+                    "type": "Feature",
+                    "properties": {
+                      "name": "Tucker Meditation Room",
+                      "category": "student life",
+                      "description": ""
+                    },
+                    "geometry": {
+                      "coordinates": [
+                        -72.29105374654644,
+                        43.703459119148135
+                      ],
+                      "type": "Point"
+                    },
+                    "id": 15
+                  }
+
                   ]
                 }
